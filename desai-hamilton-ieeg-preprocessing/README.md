@@ -1,6 +1,6 @@
 # hamilton-ieeg-preprocessing
 
-Written by Liberty Hamilton for NeuroHackademy 2023. liberty.hamilton@austin.utexas.edu
+Written by Maansi Desai (and Liberty Hamilton) for WIRED 2024. maansi.desai@utexas.edu | liberty.hamilton@austin.utexas.edu
 
 This repo includes jupyter notebooks for preprocessing intracranial data using MNE python. The tutorial is is two parts.
 
