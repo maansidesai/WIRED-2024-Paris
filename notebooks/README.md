@@ -1,4 +1,4 @@
-# hamilton-ieeg-preprocessing
+# WIRED 2024 MNE-python Notebooks
 
 Written by Maansi Desai (and Liberty Hamilton) for WIRED 2024. maansi.desai@utexas.edu | liberty.hamilton@austin.utexas.edu
 
