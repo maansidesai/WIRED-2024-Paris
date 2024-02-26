@@ -9,7 +9,7 @@ The University of Texas at Austin
 * [Apolline Mellot](https://github.com/apmellot), PhD Student at Inria, Université Paris-Saclay, France
 
 ## Getting Started
-Welcome to the WIRED 2024 [MNE Python](https://mne.tools/stable/index.html) Tutorial! If you're reading this, hopefully you are getting started learning how to use python and jupyter notebooks to do some analysis of neuroscience data! In this tutorial, we will be using a BIDS dataset collected from a combination of intracranial (sEEG data). The tutorials here are organized into Jupyter notebooks that will go through a series of concepts that will give you the foundation for what you need to preprocess and plot epochs using [MNE-Python](https://mne.tools/stable/index.html). 
+Welcome to the WIRED 2024 [MNE Python](https://mne.tools/stable/index.html) Tutorial! If you're reading this, hopefully you are getting started learning how to use python and jupyter notebooks to do some analysis of neuroscience data! In this tutorial, we will be using several [BIDS](https://bids-specification.readthedocs.io/en/stable/)-formatted [intracranial datasets](https://bids-specification.readthedocs.io/en/stable/modality-specific-files/intracranial-electroencephalography.html). The tutorials here are organized into Jupyter notebooks that will go through a series of concepts that will give you the foundation for what you need to preprocess and plot epochs using [MNE-Python](https://mne.tools/stable/index.html). 
 
 ## Installation Instructions
 * First you should install [MNE-python](https://mne.tools/stable/install/index.html). We recommend using the standalone installer.
