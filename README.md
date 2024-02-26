@@ -21,9 +21,9 @@ conda install -c conda-forge openneuro-py
 pip install openneuro-py
 ```
 * Download the datasets for this tutorial. We recommend that you place them in a data folder in the repo (this will be ignored by `git` by default -- the files are too big for git repositories). The installation below will install all the data from our sample dataset and one subject's data from Berezutskaya et al. If you wish to download more data, you may do that on your own.
-```
+```bash
 # Launch MNE-prompt, then do the following
-cd /path/to/WIRED-2024-Paris
+cd /path/to/WIRED-2024-Paris/notebooks
 mkdir data
 cd data
 openneuro-py download --dataset ds003688 --include sub-06
@@ -31,8 +31,8 @@ openneuro-py download --dataset ds004993
 ```
 
 ## Datasets we will be using to demonstrate preprocessing intracranial data and plotting evoked responses:
-1) Data collected from two pediatric sEEG patients in the Hamilton Lab [https://openneuro.org/datasets/ds004993/versions/1.0.2]. This is 300 MB
-2) Berezutskaya iEEG and fMRI data from movie viewing [https://openneuro.org/datasets/ds003688/versions/1.0.7]. This is 5GB
+1) Data collected from three pediatric sEEG patients in the Hamilton Lab [https://openneuro.org/datasets/ds004993/versions/1.0.2]. This is ~300 MB
+2) Berezutskaya iEEG and fMRI data from movie viewing [https://openneuro.org/datasets/ds003688/versions/1.0.7]. This is 155 MB for one participant, and 15 GB for the whole dataset.
 
 ## List of notebooks
 ### 01_ieeg_preprocessing_MNE
