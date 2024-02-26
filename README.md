@@ -13,7 +13,11 @@ Welcome to the WIRED 2024 [MNE Python](https://mne.tools/stable/index.html) Tuto
 
 ## Installation Instructions
 * First you should install [MNE-python](https://mne.tools/stable/install/index.html). We recommend using the standalone installer.
-* Start up MNE-prompt (or your MNE environment), and install the [openneuro-py](https://github.com/hoechenberger/openneuro-py) client (see the link for more detailed instructions).
+* Start up MNE-prompt (or your MNE environment), and install the required python libraries in `requirements.txt`:
+```bash
+pip install -r requirements.txt
+```
+* Install the [openneuro-py](https://github.com/hoechenberger/openneuro-py) client (see the link for more detailed instructions).
 ```bash
 # via conda:
 conda install -c conda-forge openneuro-py
