@@ -13,6 +13,11 @@ Welcome to the WIRED 2024 [MNE Python](https://mne.tools/stable/index.html) Tuto
 
 ## Installation Instructions
 * First you should install [MNE-python](https://mne.tools/stable/install/index.html). We recommend using the standalone installer.
+* Clone this repository in your directory of choice on your local machine.
+```
+git clone https://github.com/maansidesai/WIRED-2024-Paris/
+cd path/to/WIRED-2024-Paris
+```
 * Start up MNE-prompt (or your MNE environment), and install the required python libraries in `requirements.txt`:
 ```bash
 pip install -r requirements.txt
