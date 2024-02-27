@@ -52,7 +52,7 @@ openneuro-py download --dataset ds004993
 ```
 
 ## Datasets we will be using to demonstrate preprocessing intracranial data and plotting evoked responses:
-1) Data collected from three pediatric sEEG patients in the Hamilton Lab [https://openneuro.org/datasets/ds004993/versions/1.1.0]. This is ~300 MB
+1) Data collected from three pediatric sEEG patients in the Hamilton Lab [https://openneuro.org/datasets/ds004993/versions/1.1.1]. This is ~300 MB
 2) Berezutskaya iEEG and fMRI data from movie viewing [https://openneuro.org/datasets/ds003688/versions/1.0.7]. This is 155 MB for one participant, and 15 GB for the whole dataset.
 
 ## List of notebooks
