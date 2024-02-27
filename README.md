@@ -17,6 +17,10 @@ Welcome to the WIRED 2024 [MNE Python](https://mne.tools/stable/index.html) Tuto
 # Only try this if the standalone installer doesn't work on mac:
 sudo installer -verbose -pkg MNE-Python-1.6.1_0-macOS_M1.pkg -target /
 ```
+* Open up the MNE-prompt, and in the MNE environment, install `nb_conda_kernels` for better experience with Jupyter notebooks. See MNE's [Advanced Installation Instructions](https://mne.tools/stable/install/advanced.html)  for more information.
+```
+conda install --name=base nb_conda_kernels
+```
 * Clone this repository in your directory of choice on your local machine.
 ```
 git clone https://github.com/maansidesai/WIRED-2024-Paris/
