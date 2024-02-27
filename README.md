@@ -26,6 +26,10 @@ cd path/to/WIRED-2024-Paris
 ```bash
 pip install -r requirements.txt
 ```
+* If you experience any errors with the pip install above (for example, `pyfftw` has some issues with newer Silcon chip Macs (e.g. M2), you can do the following `conda install`:
+```bash
+conda install -c conda-forge pyfftw
+```
 * Install the [openneuro-py](https://github.com/hoechenberger/openneuro-py) client (see the link for more detailed instructions).
 ```bash
 # via conda:
