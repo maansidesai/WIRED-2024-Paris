@@ -12,7 +12,11 @@ The University of Texas at Austin
 Welcome to the WIRED 2024 [MNE Python](https://mne.tools/stable/index.html) Tutorial! If you're reading this, hopefully you are getting started learning how to use python and jupyter notebooks to do some analysis of neuroscience data! In this tutorial, we will be using several [BIDS](https://bids-specification.readthedocs.io/en/stable/)-formatted [intracranial datasets](https://bids-specification.readthedocs.io/en/stable/modality-specific-files/intracranial-electroencephalography.html). The tutorials here are organized into Jupyter notebooks that will go through a series of concepts that will give you the foundation for what you need to preprocess and plot epochs using [MNE-Python](https://mne.tools/stable/index.html). 
 
 ## Installation Instructions
-* First you should install [MNE-python](https://mne.tools/stable/install/index.html). We recommend using the standalone installer.
+* First you should install [MNE-python](https://mne.tools/stable/install/index.html). We recommend using the standalone installer. Note that for Mac M2 chips this may not work, but you can try running the installer from your command line instead, e.g.
+```
+# Only try this if the standalone installer doesn't work on mac:
+sudo installer -verbose -pkg MNE-Python-1.6.1_0-macOS_M1.pkg -target /
+```
 * Clone this repository in your directory of choice on your local machine.
 ```
 git clone https://github.com/maansidesai/WIRED-2024-Paris/
@@ -40,7 +44,7 @@ openneuro-py download --dataset ds004993
 ```
 
 ## Datasets we will be using to demonstrate preprocessing intracranial data and plotting evoked responses:
-1) Data collected from three pediatric sEEG patients in the Hamilton Lab [https://openneuro.org/datasets/ds004993/versions/1.0.2]. This is ~300 MB
+1) Data collected from three pediatric sEEG patients in the Hamilton Lab [https://openneuro.org/datasets/ds004993/versions/1.1.0]. This is ~300 MB
 2) Berezutskaya iEEG and fMRI data from movie viewing [https://openneuro.org/datasets/ds003688/versions/1.0.7]. This is 155 MB for one participant, and 15 GB for the whole dataset.
 
 ## List of notebooks
