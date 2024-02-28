@@ -51,7 +51,7 @@ def applyHilbertTransform(X, rate, center, sd):
 def transformData(raw, data_dir, band='high_gamma', notch=True, CAR=True,
                   car_chans='average', log_transform=True, do_zscore=True,
                   hg_fs=100, notch_freqs=[60,120,180],
-                  ch_types='eeg', overwrite=False, save=False):
+                  ch_types='seeg', overwrite=False, save=False):
     
     # The suffix that will be added to the file name as
     # different procedures occur
@@ -63,7 +63,7 @@ def transformData(raw, data_dir, band='high_gamma', notch=True, CAR=True,
             os.mkdir(raw_dir)
         
     raw.load_data()
-    raw.pick_types(meg=False, eeg=True, ecog=True) 
+    raw.pick_types(seeg=True) 
     nchans = raw.info['nchan']
 
     band_ranges = {'delta': [None, 4],
