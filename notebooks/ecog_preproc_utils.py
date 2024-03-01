@@ -3,7 +3,14 @@
 import numpy as np
 import os
 import mne
-from pyfftw.interfaces.numpy_fft import fft, ifft, fftfreq
+
+try:
+    from pyfftw.interfaces.numpy_fft import fft, ifft, fftfreq
+except ImportError:
+    print("pyfftw not installed, using numpy")
+    from numpy.fft import fft, ifft, fftfreq
+
+
 from tqdm import tqdm
 
 
