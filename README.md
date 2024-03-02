@@ -71,7 +71,7 @@ openneuro-py download --dataset ds004993
 2) [Berezutskaya et al.](https://www.nature.com/articles/s41597-022-01173-0) iEEG and fMRI data from movie viewing. See [openneuro](https://openneuro.org/datasets/ds003688/versions/1.0.7) page for more details. This is 155 MB for one participant, and 15 GB for the whole dataset.
 
 ## List of notebooks
-### [`01_ieeg_preprocessing_MNE`](notebooks/01_ieeg_prepcossing_MNE)
+### [`01_ieeg_preprocessing_MNE`](notebooks/01_ieeg_preprocessing_MNE.ipynb)
 
 The first notebook which will load, plot, rereference, and inspect data for artifact rejection.
 
