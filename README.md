@@ -73,11 +73,13 @@ openneuro-py download --dataset ds004993
 ## List of notebooks
 ### [`01_ieeg_preprocessing_MNE`](notebooks/01_ieeg_prepcossing_MNE)
 
-First notebook which will load, plot, rereference, and inspect data for artifact rejection.
+The first notebook which will load, plot, rereference, and inspect data for artifact rejection.
 
 ### [`02_ieeg_preprocessing_MNE_epochs`](notebooks/02_ieeg_preprocessing_MNE_epochs.ipynb)
 The second notebook will involve learning about how to epoch your data.  Epoched data allows you to calculate averaged responses to events of interest (event-related potentials) and can be conducted based on the onset of the sentence, a phonene onset, or word onset (as examples to consider).
 
-### [`03_plot_electrodes`](notebooks/02_plot_electrodes.ipynb)
+### [`03_plot_electrodes`](notebooks/03_plot_electrodes.ipynb)
+[OPTIONAL] We will not go over this notebook during the workshop, which is why it is marked as optional. Instead, this notebook contains code to help you plot electrodes on the brain if the freesurfer information exists in the BIDS dataset. Addtionally, there is code to plot and visualize high gamma responses to sentences. 
 
 ### [`04_ieeg_breakout_MNE`](notebooks/04_ieeg_breakout_MNE.ipynb)
+The final notebook will be used for the end of the workshop for you to work through a new dataset and help solidfy your knowledge of the content convered. 
