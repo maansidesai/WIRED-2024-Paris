@@ -79,7 +79,7 @@ The first notebook which will load, plot, rereference, and inspect data for arti
 The second notebook will involve learning about how to epoch your data.  Epoched data allows you to calculate averaged responses to events of interest (event-related potentials) and can be conducted based on the onset of the sentence, a phonene onset, or word onset (as examples to consider).
 
 ### [`03_plot_electrodes`](notebooks/03_plot_electrodes.ipynb)
-[OPTIONAL] We will not go over this notebook during the workshop, which is why it is marked as optional. Instead, this notebook contains code to help you plot electrodes on the brain if the freesurfer information exists in the BIDS dataset. Addtionally, there is code to plot and visualize high gamma responses to sentences. 
+[OPTIONAL] We will not go over this notebook during the workshop, which is why it is marked as optional. Instead, this notebook contains code to help you plot electrodes on the brain if the freesurfer information exists in the BIDS dataset. Addtionally, there is code to plot and visualize electrodes that are colored by the high gamma response to sentence listening.
 
 ### [`04_ieeg_breakout_MNE`](notebooks/04_ieeg_breakout_MNE.ipynb)
 The final notebook will be used for the end of the workshop for you to work through a new dataset and help solidfy your knowledge of the content convered. 
